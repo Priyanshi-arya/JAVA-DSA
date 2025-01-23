@@ -12,9 +12,9 @@ public class primeNumber {
             }
         }
         if(flag == false){
-            System.out.println("Number "+ n + " is not prime");
-        }else{
             System.out.println("Number "+ n + " is prime");
+        }else{
+            System.out.println("Number "+ n + " is not prime");
         }
 
     }
