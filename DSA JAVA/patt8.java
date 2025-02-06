@@ -7,7 +7,11 @@ public class patt8 {
             for(int j=1;j<=n;j++){
                 if(i+j==n+1){
                     System.out.print("*\t");
-                }else{
+                }
+         else if (i==j){
+            System.out.print("*\t");
+        }
+                else{
                     System.out.print("\t");
                 }
             }
